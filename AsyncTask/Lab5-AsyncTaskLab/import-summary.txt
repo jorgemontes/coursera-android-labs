@@ -1,0 +1,140 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea\
+* .idea\.name
+* .idea\compiler.xml
+* .idea\copyright\
+* .idea\copyright\profiles_settings.xml
+* .idea\encodings.xml
+* .idea\misc.xml
+* .idea\modules.xml
+* .idea\scopes\
+* .idea\scopes\scope_settings.xml
+* .idea\vcs.xml
+* .idea\workspace.xml
+* AsyncTaskLab.mp4
+* Lab-AsyncTask.pdf
+* app\
+* app\build.gradle
+* app\libs\
+* app\libs\robotium-solo-5.3.1.jar
+* app\lint.xml
+* app\src\
+* app\src\androidTest\
+* app\src\androidTest\java\
+* app\src\androidTest\java\course\
+* app\src\androidTest\java\course\labs\
+* app\src\androidTest\java\course\labs\asynctasklab\
+* app\src\androidTest\java\course\labs\asynctasklab\tests\
+* app\src\androidTest\java\course\labs\asynctasklab\tests\FeedTest.java
+* app\src\androidTest\res\
+* app\src\androidTest\res\.gitignore
+* app\src\main\
+* app\src\main\AndroidManifest.xml
+* app\src\main\java\
+* app\src\main\java\course\
+* app\src\main\java\course\labs\
+* app\src\main\java\course\labs\asynctasklab\
+* app\src\main\java\course\labs\asynctasklab\DownloadFinishedListener.java
+* app\src\main\java\course\labs\asynctasklab\DownloaderTaskFragment.java
+* app\src\main\java\course\labs\asynctasklab\FeedFragment.java
+* app\src\main\java\course\labs\asynctasklab\FriendsFragment.java
+* app\src\main\java\course\labs\asynctasklab\MainActivity.java
+* app\src\main\java\course\labs\asynctasklab\SelectionListener.java
+* app\src\main\res\
+* app\src\main\res\drawable-hdpi\
+* app\src\main\res\drawable-hdpi\ic_launcher.png
+* app\src\main\res\drawable-ldpi\
+* app\src\main\res\drawable-ldpi\ic_launcher.png
+* app\src\main\res\drawable-mdpi\
+* app\src\main\res\drawable-mdpi\ic_launcher.png
+* app\src\main\res\drawable-xhdpi\
+* app\src\main\res\drawable-xhdpi\ic_launcher.png
+* app\src\main\res\layout\
+* app\src\main\res\layout\activity_main.xml
+* app\src\main\res\layout\feed.xml
+* app\src\main\res\raw\
+* app\src\main\res\raw\lgaga.txt
+* app\src\main\res\raw\rblack.txt
+* app\src\main\res\raw\tswift.txt
+* app\src\main\res\values-sw600dp\
+* app\src\main\res\values-sw600dp\dimens.xml
+* app\src\main\res\values-sw720dp-land\
+* app\src\main\res\values-sw720dp-land\dimens.xml
+* app\src\main\res\values-v11\
+* app\src\main\res\values-v11\styles.xml
+* app\src\main\res\values-v14\
+* app\src\main\res\values-v14\styles.xml
+* app\src\main\res\values\
+* app\src\main\res\values\dimens.xml
+* app\src\main\res\values\strings.xml
+* app\src\main\res\values\styles.xml
+* build.gradle
+* gradle\
+* gradle\wrapper\
+* gradle\wrapper\gradle-wrapper.jar
+* gradle\wrapper\gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web.png
+* proguard-project.txt
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+robotium-solo-5.3.1.jar => com.jayway.android.robotium:robotium-solo:5.3.1
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+robotium-solo-5.3.1.jar => version 5.3.1 in com.jayway.android.robotium:robotium-solo:5.3.1
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* lint.xml => app\lint.xml
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+* Test\libs\robotium-solo-5.3.1.jar => app\libs\robotium-solo-5.3.1.jar
+* Test\res\ => app\src\androidTest\res\
+* Test\src\ => app\src\androidTest\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
